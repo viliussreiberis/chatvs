@@ -53,10 +53,7 @@ const Modal = () => {
             placeholder="Password"
             required
           />
-          <div className="accountsinfo">
-            <p>Choose username between Jonas and Antanas</p>
-            <p>Choose password between Jonaitis and Antanaitis</p>
-          </div>
+
           <div align="center">
             <button type="submit" className="button">
               <span>Start chatting</span>
@@ -64,6 +61,10 @@ const Modal = () => {
           </div>
         </form>
         <h1>{error}</h1>
+      </div>
+      <div className="accountsinfo">
+        <p>Choose username between Jonas and Antanas</p>
+        <p>Choose password between Jonaitis and Antanaitis</p>
       </div>
     </div>
   );
